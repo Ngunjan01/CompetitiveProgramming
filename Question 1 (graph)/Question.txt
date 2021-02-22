@@ -1,0 +1,82 @@
+Find a cycle, if exists, in a directed graph.
+If there is none, print 0.
+If there is one, print the path starting from the first node of the cycle to the last.
+If there are more than one, print any path.
+1<=N<=100
+Sample Input:
+5
+6 12    //Single loop
+0 1
+0 2
+0 5
+1 3
+1 5
+2 1
+2 4
+3 0
+4 3
+5 0
+5 3
+5 4
+6 12    //Single loop
+0 1
+0 2
+0 5
+1 3
+1 5
+2 0
+2 4
+3 0
+4 3
+5 0
+5 3
+5 4
+6 13       //Self Loop
+0 1
+0 2
+0 5
+1 1
+1 3
+1 5
+2 1
+2 4
+3 0
+4 3
+5 0
+5 3
+5 4
+6 15        // No loop
+0 1
+0 2
+0 3
+0 4
+0 5
+1 2
+1 3
+1 4
+1 5
+2 3
+2 4
+2 5
+3 4
+3 5
+4 5
+6 6             //Single Loop not from origin
+0 1
+1 2
+2 5
+5 1
+2 3
+3 4
+6 5             //Disconnected Components
+1 2
+2 5
+5 1
+2 3
+3 4
+Output:
+0->1->3->0
+0->1->3->0
+1->1
+-1
+1->2->5->1
