@@ -1,0 +1,16 @@
+Four 5G base station towers needs to be installed in a  Landscape which is divided as hexagon cells as shown in Fig below, which also contains number of people living in each cell. Need to find four cells  to install the 5G towers which can cover maximum number of people  combining all four cells, with below conditions
+Only one tower can be placed in a cell
+Each of the four chosen cell should be neighbor to atleast one of the remaining 3 cells. 
+All four cells should be connected  (like  one island)
+Input range:  1 <= N, M <= 15
+Sample input Format for Fig in right
+3 4
+150 450 100 320
+120 130 160 110
+10 60 200 220
+
+Output
+Square of  Maximum number of people covered by 4 towers
+
+
+
