@@ -32,14 +32,7 @@ int maxcoins(int A[],int siz)
                     dp[left][right] = max(nums[left]*nums[right] + dp[left][i] + dp[i][right],dp[left][right]);
             }
         }
-        for(int i=0;i<n;i++)
-        {
-            for(int j=0;j<n;j++)
-            {
-                cout<<dp[i][j]<<" ";
-            }
-            cout<<endl;
-        }
+        
     }
     return dp[0][n-1];
 }
