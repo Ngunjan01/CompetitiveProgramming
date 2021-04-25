@@ -5,3 +5,4 @@
 4. Samsung | Spaceship
 5. Samsung | Mr. Kim
 6. Samsung | Endoscope
+7. Samsung | Rare Elements
