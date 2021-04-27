@@ -10,3 +10,4 @@
 9. Samsung | Burst Ballons 2
 10. Samsung | omnious number
 11. Samsung | Fisherman
+12. Samsung | Oil Mines
