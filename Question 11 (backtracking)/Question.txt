@@ -1,0 +1,20 @@
+Fishing Spots: 1 to N 3 Gates with gate position and number of fishermen waiting to get in Distance between consecutive spots = distance between gate and nearest spot = 1 m. 
+Fishermen are waiting at the gates to get in and occupy nearest fishing spot. Only 1 gate can be opened at a time and all fishermen of that gate must occupy spots before next 
+gate is open. There could be 2 spots closest to the gate. Assign only 1 spot to the last fisherman in such a way that we get minimum walking distance. For rest of the fishermen, 
+ignore and assign any one. Write a program to return sum of minimum distance need to walk for fishermen. Note : The problem can be solved using Recursion and Backtracking by 
+considering all possible combinations.
+
+input
+5
+10
+4 5
+6 2
+10 2
+10
+8 5
+9 1
+10 2
+
+Output
+#1 18
+#2 25
