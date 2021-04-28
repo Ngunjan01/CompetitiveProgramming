@@ -1,4 +1,4 @@
-# CompetitiveProgramming
+# CompetitiveProgramming/ TARGET SAMSUNG
 1. Samsung | Find a Cycle
 2. Samsung | Shortest Path in a maze | Lee algorithm
 3. Samsung | Base Station
@@ -11,3 +11,4 @@
 10. Samsung | omnious number
 11. Samsung | Fisherman
 12. Samsung | Oil Mines
+13. Samsung | Pot and Crow
